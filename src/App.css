@@ -1,0 +1,63 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css';
+@import './components/Header/Header.css';
+@import './components/Ingredients/Ingredients.css';
+@import './components/Totaal/Totaal.css';
+
+
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+
+
+
+
+body {
+    line-height: 25px;
+
+}
+
+
+/* UL STIJLEN */
+
+h3 {
+    font-family: 'Anton', sans-serif;
+    color: #5b5b5b;
+    margin: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    border-bottom: 3px solid #5b5b5b;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    /* padding: 2rem; */
+    width: 100%;
+    height: 100vh;
+    background-image: url(../src/img/bgg.jpg);
+    background-size: cover;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+ul {
+    margin-right: 10px;
+
+
+}
+
+li {
+    margin-bottom: 10px;
+    border: solid 3px rgba(0, 0, 0, 0.75);
+    color: rgba(0, 0, 0, 0.75);
+    cursor: default;
+
+}
+
+li:hover {
+    box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+}

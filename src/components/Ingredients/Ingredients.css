@@ -1,0 +1,30 @@
+.div {
+    background: white;
+    text-align: center;
+    list-style-type: none;
+    color:#1e1e1c;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.ingredientList {
+    width: 23%;
+    
+}
+
+/* ul {
+    border: 1px solid #5b5b5b;
+    border-radius: 8px;
+} */
+
+
+.div:hover {
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+}
+
+/* .ingredientList ul li p {
+    padding: 10px 0 0px 0;
+} */
