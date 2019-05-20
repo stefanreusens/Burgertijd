@@ -21,10 +21,10 @@ body {
 /* UL STIJLEN */
 
 h3 {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto';
+    font-size: 1.3em;
     color: #5b5b5b;
     margin: 20px;
-    font-family: 'Shadows Into Light', cursive;
     text-align: center;
 }
 
