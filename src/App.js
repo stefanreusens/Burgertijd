@@ -5,7 +5,6 @@ import Totaal from './components/Totaal/Totaal'
 import Header from './components/Header/Header'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
-import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 import './App.css';
 
 
@@ -192,9 +191,6 @@ class App extends Component {
             </ul>
        
           </div>
-          <AnchorLink href='#totalement'>
-          <Fab> <AddShoppingCartIcon /> </Fab>
-          </AnchorLink>
 
  
         </div>
